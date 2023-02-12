@@ -2,11 +2,12 @@
 
 const ProfileCard = (props) => {
 
-    const { title, handle } = props;
+    const { title, handle , image} = props;
     return (
         <div>
-        <h1>title: {title}</h1>
-        <p>Handle: {handle}</p>
+            <img src={image} alt="pda logo" />
+            <div>title: {title}</div>
+            <div>Handle: {handle}</div>
         </div>
   );
 };
