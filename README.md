@@ -69,3 +69,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # 2-react-profilecard
+
+
+# css 
+Bulma.io
+
+npm i bulma
+
+import css into App.js
+
+import 'bulma/css/bulma.css'
