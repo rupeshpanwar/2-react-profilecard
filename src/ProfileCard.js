@@ -1,5 +1,5 @@
 const ProfileCard = (props) => {
-    const { title, handle , image} = props;
+    const { title, handle , image, description} = props;
     return (
         <div className="card">
             <div className="card-image">
@@ -12,6 +12,7 @@ const ProfileCard = (props) => {
                     <p className="title is-4">{title}</p>
                     <p className="subtitle is-6"><strong>Handle:</strong> {handle}</p>
                 </div>
+                <div className="content">{description}</div>
             </div>
         </div>
     );
