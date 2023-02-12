@@ -1,16 +1,13 @@
 // import React from 'react';
 
 const ProfileCard = (props) => {
- // const { name, title, profileImage, email } = props;
 
-  return (
-    <h1>Profile Card</h1>
-    // <div className="profile-card">
-    //   {/* <img src={profileImage} alt="Profile" className="profile-image"/>
-    //   <h2 className="name">{name}</h2>
-    //   <h3 className="title">{title}</h3>
-    //   <p className="email">{email}</p> */}
-    // </div>
+    const { title, handle } = props;
+    return (
+        <div>
+        <h1>title: {title}</h1>
+        <p>Handle: {handle}</p>
+        </div>
   );
 };
 
